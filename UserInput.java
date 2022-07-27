@@ -30,20 +30,20 @@ class UserInput{
 
     Scanner sc=new Scanner(System.in);
     
-    // System.out.println("enter the Byte");
-    // byte b=sc.nextByte();
-    // System.out.println("enter the Short");
-    // short s=sc.nextShort();
-    // System.out.println("enter the int");
-    // int i=sc.nextInt();
-    // System.out.println("enter the long");
-    // long l=sc.nextLong();
-    // System.out.println("enter the float");
-    // float f=sc.nextFloat();
-    // System.out.println("enter the double");
-    // double d=sc.nextDouble();
-    // System.out.println("zinda hai ?");
-    // boolean bool=sc.nextBoolean();
+    System.out.println("enter the Byte");
+    byte b=sc.nextByte();
+    System.out.println("enter the Short");
+    short s=sc.nextShort();
+    System.out.println("enter the int");
+    int i=sc.nextInt();
+    System.out.println("enter the long");
+    long l=sc.nextLong();
+    System.out.println("enter the float");
+    float f=sc.nextFloat();
+    System.out.println("enter the double");
+    double d=sc.nextDouble();
+    System.out.println("zinda hai ?");
+    boolean bool=sc.nextBoolean();
 
     System.out.println("Enter ur first name");
     String name=sc.next();//takes a word as input (same as %s in scanf)
